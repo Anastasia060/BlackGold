@@ -1,0 +1,274 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: ;
+}
+body {
+    font-family: sans-serif;
+    background-color:#d0aa2fcf ;
+}
+html{
+    font-family:'Roboto', sans-serif;
+}
+.logo_img {
+width: 100px;
+height: 100px;
+display: block;
+}
+.nav{
+   margin-right: 90px;
+}
+main{
+    margin: 0 90px;
+}
+.nav_list{
+list-style: none;
+display: flex;
+justify-content: space-between;
+}
+.nav_link{
+background-color: #CDB23B;
+padding: 10px;
+margin: 10px;
+border-radius: 7px;
+text-decoration: none;
+color: #5A2D15;
+border: 2px solid #CDB23B;
+transition: all 0.3s;
+}
+.nav_link:hover{
+    border-color: #5A2D15;
+}
+.nav_link:active{
+   color: #ec5504;
+}
+.header{
+    background-color: #AD931D;
+    display: flex ;
+    gap: 90px;
+    align-items: center;
+    margin-bottom: 70px ;
+    margin-top: 70px;
+}
+.logo_img{
+    margin-left: 90px ;
+    border:2px solid #5A2D15;
+}
+.logo_link{
+    text-decoration:none ;
+    transition: all 0.3s;
+}
+.logo_link:hover{
+   transform: scale(1.1); 
+}
+.logo_link:active{
+   transform: scale(0.9); 
+}
+
+
+.h11{
+    color: #5A2D15;
+    text-align: center right;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 64px;
+    margin-bottom: 50px;
+}
+p{
+  color: #5A2D15;
+}
+.intro{
+    display: flex;
+    gap: 120px;
+    align-items: center;
+    margin-bottom: 190px;
+}
+.intro_text{
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.intro_bottom{
+    display: block;
+    text-decoration: none;
+    color: #5A2D15;
+    font-size: 24px;
+    background-color: #AD931D;
+    border-radius: 7px;
+    height: 55px;
+    width: 250px;
+    text-align: center ;
+    line-height: 55px;
+    transition: all 0.3s;
+}
+.intro_bottom:hover{
+    background-color:#5A2D15 ;
+    color: #AD931D;
+}
+.intro_bottom:active{
+    background-color:#ec5504;
+    color: #AD931D;
+}
+
+
+.intro_bottoms{
+    display: flex;
+    gap: 30px;
+}
+.menu_container{
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+.menu_card{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    color: #5A2D15;
+}
+.card_img{
+    width: 450px;
+    height: 385px;
+}
+.card_title{
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #5A2D15;
+}
+.card_discraption{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.card_price{
+    font-size: 24px;
+}
+.menu_title{
+   text-align: center; 
+   font-size: 48px;
+   margin-bottom: 90px;
+   color: #5A2D15;
+}
+.sales_title{
+    text-align: center; 
+   font-size: 48px;
+   margin-bottom: 90px;
+   color: #5A2D15;
+}
+.sales_container{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.aboutUs_title{
+   text-align: center; 
+   font-size: 48px;
+   margin-bottom: 90px; 
+   color: #5A2D15;
+}
+.sales_img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    margin-left: 100px;
+    margin-right: 50px;
+    transition: all 0.3s;
+}
+.sales_img:hover{
+border-radius:0px ;
+}
+.aboutUs{
+   background-image:linear-gradient(to bottom, #5A2D15,#AD931D ) ;
+   padding:200px 20px ;
+   margin-bottom: 190px;
+
+
+}
+.aboutUs_text{
+    color: white;
+    width:50%;
+    font-size: 24px;
+}
+.menu{
+    margin-bottom: 190px;
+}
+.sales{
+    margin-bottom: 190px;
+}
+.footer{
+    background-color:#AD931D;
+    padding: 70px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tel{
+    text-decoration: none;
+    color: #9e5c39;
+    transition: all 0.3s;
+}
+.tel:hover{
+    text-decoration: underline;
+}
+.tel:active{
+    color: #ec5504;
+}
+.address{
+    display: block;
+ text-decoration: none;
+ color: #5A2D15;
+ font-size: 36px;
+ font-weight: 400;
+ margin-bottom: 30px;
+ transition: all 0.3;
+}
+.address:hover{
+    text-decoration: underline;
+}
+.address:active{
+    color: #ec5504;
+}
+.address_text{
+    color: #9e5c39;
+}
+.social_title{
+color: #5A2D15;
+font-size: 36px;
+font-weight:700 ;
+margin-bottom: 12px;
+}
+.social_img{
+    height: 70px;
+    width: 70px;
+}
+.footer_logo{
+    height: 200px;
+    width: 200px;
+    transition: all 0.3;
+}
+.footer_logo:hover{
+transform: scale(1.1);
+}
+.footer_logo:active{
+transform: scale(0.2);
+}
+
+.nomber{
+font-size: 36px;
+font-weight: 700;
+margin-bottom: 30px;
+}
+.social_link{
+    display: inline-block;
+    margin-right: 65px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.social_link:hover{
+ transform: scale(1.1);
+}
+.social_link:active{
+transform: scale(0.9);
+}
